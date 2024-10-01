@@ -1,0 +1,76 @@
+header.header__container--index {
+  background-image: (url("../images/header-images/index-header-bandphoto.jpg"));
+  width: 100%;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  h1 {
+    color: white;
+    text-transform: capitalize;
+    font-size: 6em;
+  }
+}
+
+header.header__container--about {
+  background-image: (url("../images/header-images/about-header.jpg"));
+}
+
+header.header__container--gallery {
+  background-image: (url("../images/header-images/gallery-header.jpg"));
+}
+
+header.header__container--contact {
+  background-image: url(../images/header-images/contact-us-header.jpg);
+}
+
+section.header__container--children--h1 h1 {
+  color: $brand-blue;
+  text-transform: capitalize;
+  font-size: 5em;
+}
+
+.header__style {
+  width: 100%;
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+section.contact__band--friendbox {
+  background-color: $brand-blue;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly center;
+  align-items: center;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+h2.contact__band--friendbox--head {
+  color: white;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  padding: 0px 10%;
+}
+
+p.contact__band--friendbox--para {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+  padding: 0px 20%;
+}
+
+button {
+  text-transform: capitalize;
+}
